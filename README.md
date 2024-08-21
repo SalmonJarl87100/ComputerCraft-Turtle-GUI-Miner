@@ -1,2 +1,2 @@
 # ComputerCraft-Turtle-GUI-Miner
-A GUI program get dimensions of a cube to mine.
+A GUI program get the dimensions of a cube from the user to mine.
