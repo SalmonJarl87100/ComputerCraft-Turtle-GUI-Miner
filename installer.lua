@@ -71,13 +71,13 @@ if fs.exists("/smartMine.lua") then
 end
 
 -- download main file to program folder
-shell.run("pastebin get nxn0wMJ2 /SmartMine/main.lua")
+shell.run("wget https://github.com/SalmonJarl87100/ComputerCraft-Turtle-GUI-Miner/raw/main/main.lua /SmartMine/main.lua")
 
 -- download basalt file to program folder
-shell.run("pastebin get zCQ28pS2 /SmartMine/basalt.lua")
+shell.run("wget https://github.com/SalmonJarl87100/ComputerCraft-Turtle-GUI-Miner/raw/main/basalt.lua /SmartMine/basalt.lua")
 
 -- download shortcut file
-shell.run("pastebin get KTHp7Tyb /smartMine.lua")
+shell.run("wget https://github.com/SalmonJarl87100/ComputerCraft-Turtle-GUI-Miner/raw/main/smartMine.lua /smartMine.lua")
 
 -- download startup file
-shell.run("pastebin get wTMwjfNs /startup/smartMineAutoResume.lua")
+shell.run("wget https://github.com/SalmonJarl87100/ComputerCraft-Turtle-GUI-Miner/raw/main/smartMineAutoResume.lua /startup/smartMineAutoResume.lua")
